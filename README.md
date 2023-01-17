@@ -2,6 +2,7 @@
 Mainly was made to dump League of Legends offsets
 ###
 **Attention**: This one can not find strings or xref function calls
+
 This script iterates through processes' (or module's) memory to find certain pattern and obtain different offsets, *thanks to pymem*
 
 * Takes file with patterns `pattern.txt`, takes pattern from each line as well as it's name and trying to find it inside `.text` sector of the module.
